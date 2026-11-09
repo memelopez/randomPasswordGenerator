@@ -1,0 +1,54 @@
+/* general styles */
+body {
+  background-color: #1F2937;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #fdfdfd;
+}
+
+span {
+  color: #4ADF86;
+}
+
+p {
+  color: #7D7F7C;
+  margin-bottom: 1.5em;
+}
+
+input {
+  background-color: #273549;
+  color: #55F991;
+}
+
+button {
+  background-color: #10B981;
+  color: #ffffff;
+  margin-bottom: 2em;
+  width: 200px;
+  border: none;
+  padding: 0.5em 0;
+  /* text-align: left; */
+  border-radius: 5px;
+}
+
+.container {
+  width: 50%;
+  margin: 5em auto;
+}
+
+.passContainer {
+  border-top: 2px solid #273549;
+  padding: 1em 0;
+  display: flex;
+}
+
+.passContainer input {
+  border: none;
+  width: 250px;
+  height: 40px;
+  margin: 0 0.5em;
+  border-radius: 5px;
+  text-align: center;
+}
