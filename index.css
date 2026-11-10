@@ -2,6 +2,7 @@
 body {
   background-color: #1F2937;
   font-family: 'Karla', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fdfdfd;
 }
 
 h1 {
@@ -51,4 +52,19 @@ button {
   margin: 0 0.5em;
   border-radius: 5px;
   text-align: center;
+}
+
+.passDetails {
+  margin: 1em 0;
+  border-top: 2px solid #273549;
+  padding: 1em 0;
+}
+
+.passDetails input {
+  border: none;
+  background-color: #273549;
+  border-radius: 5px;
+  height: 30px;
+  padding: 0.15em 0.5em;
+  width: 40px;
 }
