@@ -5,22 +5,32 @@ const characters =["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","
 let buttonEl = document.getElementById("generator");
 let pass1El = document.getElementById("pass1");
 let pass2El = document.getElementById("pass2");
+let numCharacsEl = document.getElementById("numCharacs");
 
 buttonEl.addEventListener('click', generatePass);
 
 function generatePass() {
   let firstPass = '';
   let secondPass = '';
-  for (let i=0; i<15; i++) {
+  let numCh = numCharacsEl.value;
+  // console.log("numchars:"+ numCh);
+  if (numCh < 8) {
+    numCh = 8;
+    numCharacsEl.value = 8;
+  } else if (numCh > 16) {
+    numCh = 16;
+    numCharacsEl.value = 16;
+  }
+  for (let i=0; i<numCh; i++) {
     let randomNumb = Math.floor(Math.random() * characters.length);
     firstPass += characters[randomNumb];
   }
-  for (let i=0; i<15; i++) {
+  for (let i=0; i<numCh; i++) {
     let randomNumb = Math.floor(Math.random() * characters.length);
     secondPass += characters[randomNumb];
   }
 
-  console.log(firstPass);
+  // console.log(firstPass);
 
   pass1El.value = firstPass;
   pass2El.value = secondPass;
