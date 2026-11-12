@@ -36,6 +36,10 @@ function generatePass() {
 
   pass1El.value = firstPass;
   pass2El.value = secondPass;
+
+  // reset text content of copying btns
+  copyPass1Btn.textContent = "Copy Password 1";
+  copyPass2Btn.textContent = "Copy Password 2";
 }
 
 copyPass1Btn.addEventListener('click', copyPass1func);
