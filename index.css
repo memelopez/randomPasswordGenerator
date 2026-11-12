@@ -43,6 +43,7 @@ button {
   border-top: 2px solid #273549;
   padding: 1em 0;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .passContainer input {
@@ -67,4 +68,27 @@ button {
   height: 30px;
   padding: 0.15em 0.5em;
   width: 40px;
+}
+
+.copyBtns {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.numbsSymbs {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+}
+
+.forNumbers, .forSymbols {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.numbsSymbs input {
+  margin: 0;
+  padding: 0;
 }

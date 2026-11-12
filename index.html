@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- css -->
    <link rel="stylesheet" href="index.css">
-  <title>Password Gen</title>
+  <title>Password Generator</title>
+  <link rel="icon" type="image/x-icon" href="./lock1.png">
 </head>
 <body>
   <div class="container">
@@ -14,11 +15,26 @@
     <div class="passDetails">
       <label for="numCharacs">Number of characters(8-16):</label>
       <input type="number" id="numCharacs" name="numCharacs" min="8" max="16" value="15"/>
+      <div class="numbsSymbs">
+        <div class="forNumbers">
+          <label for="includeNumbers">Include numbers:</label>
+          <input type="checkbox" name="includeNumbers" id="includeNumbers" checked>
+        </div>
+        <div class="forSymbols">
+          <label for="includeSymbols">Include symbols:</label>
+          <input type="checkbox" name="includeSymbols" id="includeSymbols" checked>
+        </div>
+      </div>
     </div>
     <button id="generator">Generate passwords</button>
     <div class="passContainer">
       <input type="text" id="pass1" readonly>
       <input type="text" id="pass2" readonly>
+    </div>
+    <div class="copyBtns">
+      <button id="copyPass1">Copy Password 1</button>
+      <button id="copyPass2">Copy Password 2</button>
+
     </div>
   </div>
   <script src="index.js"></script>
