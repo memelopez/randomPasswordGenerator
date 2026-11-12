@@ -75,3 +75,20 @@ button {
   display: flex;
   justify-content: space-evenly;
 }
+
+.numbsSymbs {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+}
+
+.forNumbers, .forSymbols {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.numbsSymbs input {
+  margin: 0;
+  padding: 0;
+}
