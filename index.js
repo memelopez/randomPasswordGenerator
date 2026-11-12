@@ -6,6 +6,8 @@ let buttonEl = document.getElementById("generator");
 let pass1El = document.getElementById("pass1");
 let pass2El = document.getElementById("pass2");
 let numCharacsEl = document.getElementById("numCharacs");
+let copyPass1Btn = document.getElementById("copyPass1");
+let copyPass2Btn = document.getElementById("copyPass2");
 
 buttonEl.addEventListener('click', generatePass);
 
@@ -34,4 +36,21 @@ function generatePass() {
 
   pass1El.value = firstPass;
   pass2El.value = secondPass;
+}
+
+copyPass1Btn.addEventListener('click', copyPass1func);
+copyPass2Btn.addEventListener('click', copyPass2func);
+
+function copyPass1func() {
+  let actualPass1 = pass1El.value;
+  console.log(actualPass1);
+  navigator.clipboard.writeText(actualPass1);
+  copyPass1Btn.textContent = 'Copied to clipboard';
+}
+
+function copyPass2func() {
+  let actualPass2 = pass2El.value;
+  console.log(actualPass2);
+  navigator.clipboard.writeText(actualPass2);
+  copyPass2Btn.textContent = 'Copied to clipboard!';
 }
