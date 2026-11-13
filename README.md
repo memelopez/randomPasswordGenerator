@@ -18,6 +18,12 @@ Clone this repository to your desired folder, open with live server and you are 
 
 [This github repo](https://github.com/memelopez/randomPasswordGenerator)
 
+## 🚀 Live Demo
+
+> Deployed using Netlify.
+
+- [random password live](https://randompasswordgenerator-meme.netlify.app/)
+
 ## 🔭 Features
 
 
