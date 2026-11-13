@@ -1,6 +1,6 @@
 # randomPasswordGenerator 🔐
 
-A site that generates random passwords that are difficult to hack
+A site that generates random passwords that are difficult to hack.
 
 > Never use a simple password again.
 
@@ -27,10 +27,10 @@ Clone this repository to your desired folder, open with live server and you are 
 ## 🔭 Features
 
 
-- [x] **Generate two passwords at once**
-- [x] **Choose from 8-15 characters long for your random generator password**
-- [x] **Choose if you want to include numbers and symbols**
-- [x] **Copy password to clipboard with one click**
+- [x] Generate two passwords at once
+- [x] Choose from 8-15 characters long for your random generator password
+- [x] Choose if you want to include numbers and symbols
+- [x] Copy password to clipboard with one click
 
 ## 👨🏻‍💻 Author
 
@@ -42,6 +42,5 @@ Clone this repository to your desired folder, open with live server and you are 
 
 ## ⭐️ Show your support
 
-> Drop a star if you liked it! 
-
 If you like this project...
+> Drop a star! 🌟 
