@@ -4,7 +4,7 @@ A site that generates random passwords that are difficult to hack.
 
 > Never use a simple password again.
 
-**RandomPasswordGenerator** is a website made for your ciber security safety!
+**RandomPasswordGenerator** is a website made for your ciber security safety! 👷🏻‍♂️❤️
 
 
 ## 🛠 Built With
@@ -31,7 +31,7 @@ Clone this repository to your desired folder, open with live server and you are 
 ## 🔭 Features
 
 - [x] Generate two passwords at once. ✌🏼
-- [x] Choose from 8-15 characters long password.➪
+- [x] Choose from 8-15 characters long password. 8️⃣ ➪ 1️⃣5️⃣
 - [x] Choose if you want to include numbers and symbols. 🔢 🔣
 - [x] Copy password to clipboard with one click. 👁️‍🗨️
 
